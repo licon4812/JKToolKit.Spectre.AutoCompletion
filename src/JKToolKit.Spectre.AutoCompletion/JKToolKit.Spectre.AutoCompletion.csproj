@@ -22,8 +22,9 @@
 		<InternalsAssemblyName Include="Spectre.Console" />
 		<InternalsAssemblyName Include="Spectre.Console.Cli" />
 
+		<InternalsAssemblyExcludeTypeName Include="System.Runtime.CompilerServices.IsExternalInit" />
 
-		<PackageReference Include="IgnoresAccessChecksToGenerator" Version="0.6.0" PrivateAssets="All" />
+		<PackageReference Include="IgnoresAccessChecksToGenerator" Version="0.8.0" PrivateAssets="all" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Update="Properties\Resources.Designer.cs">
